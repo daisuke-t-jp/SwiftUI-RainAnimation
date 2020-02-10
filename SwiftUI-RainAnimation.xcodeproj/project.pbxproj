@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7ED13C0623EFF3840050ABC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED13C0523EFF3840050ABC0 /* AppDelegate.swift */; };
+		7ED13C0823EFF3840050ABC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED13C0723EFF3840050ABC0 /* SceneDelegate.swift */; };
+		7ED13C0A23EFF3840050ABC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED13C0923EFF3840050ABC0 /* ContentView.swift */; };
+		7ED13C0C23EFF3860050ABC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED13C0B23EFF3860050ABC0 /* Assets.xcassets */; };
+		7ED13C0F23EFF3860050ABC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED13C0E23EFF3860050ABC0 /* Preview Assets.xcassets */; };
+		7ED13C1223EFF3860050ABC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED13C1023EFF3860050ABC0 /* LaunchScreen.storyboard */; };
+		7ED13C1E23F18DDB0050ABC0 /* Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED13C1D23F18DDB0050ABC0 /* Drop.swift */; };
+		7ED13C2023F18FCB0050ABC0 /* UIApplication+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED13C1F23F18FCB0050ABC0 /* UIApplication+Ext.swift */; };
+		7ED13C2223F19A1B0050ABC0 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED13C2123F19A1B0050ABC0 /* Common.swift */; };
+		7ED13C2423F1A1C80050ABC0 /* Interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED13C2323F1A1C80050ABC0 /* Interpolation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7ED13C0223EFF3840050ABC0 /* SwiftUI-RainAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-RainAnimation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ED13C0523EFF3840050ABC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7ED13C0723EFF3840050ABC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7ED13C0923EFF3840050ABC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7ED13C0B23EFF3860050ABC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ED13C0E23EFF3860050ABC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7ED13C1123EFF3860050ABC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7ED13C1323EFF3860050ABC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ED13C1D23F18DDB0050ABC0 /* Drop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drop.swift; sourceTree = "<group>"; };
+		7ED13C1F23F18FCB0050ABC0 /* UIApplication+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Ext.swift"; sourceTree = "<group>"; };
+		7ED13C2123F19A1B0050ABC0 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		7ED13C2323F1A1C80050ABC0 /* Interpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ED13BFF23EFF3840050ABC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ED13BF923EFF3840050ABC0 = {
+			isa = PBXGroup;
+			children = (
+				7ED13C0423EFF3840050ABC0 /* SwiftUI-RainAnimation */,
+			);
+			sourceTree = "<group>";
+		};
+		7ED13C0323EFF3840050ABC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ED13C0223EFF3840050ABC0 /* SwiftUI-RainAnimation.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7ED13C0423EFF3840050ABC0 /* SwiftUI-RainAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7ED13C0523EFF3840050ABC0 /* AppDelegate.swift */,
+				7ED13C0723EFF3840050ABC0 /* SceneDelegate.swift */,
+				7ED13C2123F19A1B0050ABC0 /* Common.swift */,
+				7ED13C2323F1A1C80050ABC0 /* Interpolation.swift */,
+				7ED13C1D23F18DDB0050ABC0 /* Drop.swift */,
+				7ED13C1F23F18FCB0050ABC0 /* UIApplication+Ext.swift */,
+				7ED13C0923EFF3840050ABC0 /* ContentView.swift */,
+				7ED13C0323EFF3840050ABC0 /* Products */,
+				7ED13C0B23EFF3860050ABC0 /* Assets.xcassets */,
+				7ED13C1023EFF3860050ABC0 /* LaunchScreen.storyboard */,
+				7ED13C1323EFF3860050ABC0 /* Info.plist */,
+				7ED13C0D23EFF3860050ABC0 /* Preview Content */,
+			);
+			path = "SwiftUI-RainAnimation";
+			sourceTree = "<group>";
+		};
+		7ED13C0D23EFF3860050ABC0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7ED13C0E23EFF3860050ABC0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ED13C0123EFF3840050ABC0 /* SwiftUI-RainAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ED13C1623EFF3860050ABC0 /* Build configuration list for PBXNativeTarget "SwiftUI-RainAnimation" */;
+			buildPhases = (
+				7ED13BFE23EFF3840050ABC0 /* Sources */,
+				7ED13BFF23EFF3840050ABC0 /* Frameworks */,
+				7ED13C0023EFF3840050ABC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI-RainAnimation";
+			productName = "SwiftUI-RainAnimation";
+			productReference = 7ED13C0223EFF3840050ABC0 /* SwiftUI-RainAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ED13BFA23EFF3840050ABC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Daisuke TONOSAKI";
+				TargetAttributes = {
+					7ED13C0123EFF3840050ABC0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7ED13BFD23EFF3840050ABC0 /* Build configuration list for PBXProject "SwiftUI-RainAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ED13BF923EFF3840050ABC0;
+			productRefGroup = 7ED13C0323EFF3840050ABC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ED13C0123EFF3840050ABC0 /* SwiftUI-RainAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ED13C0023EFF3840050ABC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED13C1223EFF3860050ABC0 /* LaunchScreen.storyboard in Resources */,
+				7ED13C0F23EFF3860050ABC0 /* Preview Assets.xcassets in Resources */,
+				7ED13C0C23EFF3860050ABC0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ED13BFE23EFF3840050ABC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED13C0623EFF3840050ABC0 /* AppDelegate.swift in Sources */,
+				7ED13C2223F19A1B0050ABC0 /* Common.swift in Sources */,
+				7ED13C0823EFF3840050ABC0 /* SceneDelegate.swift in Sources */,
+				7ED13C2023F18FCB0050ABC0 /* UIApplication+Ext.swift in Sources */,
+				7ED13C1E23F18DDB0050ABC0 /* Drop.swift in Sources */,
+				7ED13C0A23EFF3840050ABC0 /* ContentView.swift in Sources */,
+				7ED13C2423F1A1C80050ABC0 /* Interpolation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7ED13C1023EFF3860050ABC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ED13C1123EFF3860050ABC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ED13C1423EFF3860050ABC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7ED13C1523EFF3860050ABC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ED13C1723EFF3860050ABC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-RainAnimation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-RainAnimation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Daisuke-TONOSAKI.SwiftUI-RainAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7ED13C1823EFF3860050ABC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-RainAnimation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-RainAnimation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Daisuke-TONOSAKI.SwiftUI-RainAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ED13BFD23EFF3840050ABC0 /* Build configuration list for PBXProject "SwiftUI-RainAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ED13C1423EFF3860050ABC0 /* Debug */,
+				7ED13C1523EFF3860050ABC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ED13C1623EFF3860050ABC0 /* Build configuration list for PBXNativeTarget "SwiftUI-RainAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ED13C1723EFF3860050ABC0 /* Debug */,
+				7ED13C1823EFF3860050ABC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ED13BFA23EFF3840050ABC0 /* Project object */;
+}
